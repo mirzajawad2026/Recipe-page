@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5d8;
+    font-family: "Heebo", sans-serif;
+}
+.main{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 0;
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+.container{
+    padding: 30px 20px;
+}
+.cont-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+.container2{
+    background-color: #ffeff9;
+    padding: 15px 20px;
+    margin: 20px -20px;
+    padding-left: 20px;
+}
+.container3{
+    width: 100%;
+}
+.container4 ol{
+    padding-left: 20px;
+}
+.p1{
+    width: 100%;
+    color: #5f574e;
+    line-height: 1.6;
+}
+h3{
+    color: #795348;
+    font-size: 24px;
+    margin: 20px 0 15px 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    color: #2d2416;
+}
+hr{
+    border: none;
+    border-top: 1px solid #e0d5cd;
+    margin: 25px -20px;
+}
+.container5{
+    margin-bottom: 20px;
+}
+.container5 p{
+    color: #5f574e;
+    font-size: 14px;
+    line-height: 1.6;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 15px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    color: #5f574e;
+    line-height: 1.8;
+}
+.span, .spans{
+    color: #795348;
+    font-weight: 600;
+}
+.ul{
+    color: #7f594b;
+    padding: 8px 0;
+}
+.calories{
+    color: #7f594b;
+    font-weight: 500;
+    padding: 8px 0;
+}
+.last{
+    display: contents;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 480px) {
+    body{
+        padding: 10px;
+        background-color: #f3e5d8;
+    }
+    .main{
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+    img{
+        border-radius: 10px;
+    }
+    .container{
+        padding: 25px 20px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 0 0 15px 0;
+    }
+    h3{
+        font-size: 20px;
+        margin: 15px 0 12px 0;
+    }
+    .p1{
+        font-size: 14px;
+    }
+    .container2{
+        background-color: #ffeff9;
+        padding: 15px 20px;
+        margin: 20px -20px;
+    }
+    .container4 ol li{
+        margin-bottom: 10px;
+    }
+    section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
